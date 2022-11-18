@@ -1,0 +1,8 @@
+.productList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    width: 20%;
+}

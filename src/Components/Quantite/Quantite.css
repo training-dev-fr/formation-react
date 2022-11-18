@@ -1,0 +1,19 @@
+.quantite {
+    display: flex;
+    justify-content: stretch;
+}
+
+.quantite input {
+    background-color: #D0D0D0;
+    border-radius: 0px;
+}
+
+.quantite button {
+    border-radius: 0px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0D0D0;
+    color: #202020;
+}

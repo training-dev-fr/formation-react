@@ -1,0 +1,92 @@
+.product {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-header {
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #202020;
+    color: white;
+}
+
+.product-header h2 {
+    margin: 0px;
+    height: 80px;
+    width: 150px;
+}
+
+.product-picture {
+    height: 200px;
+}
+
+.product-picture img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.product-description {
+    background-color: #202020;
+    color: white;
+    height: 120px;
+}
+
+.product-price {
+    padding: 8px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #202020;
+    color: white;
+}
+
+
+/*************************
+*     Affichage panier   *
+*************************/
+
+.product.basket {
+    flex-direction: row;
+}
+
+.product.basket .product-header {
+    border-radius: 8px 0px 0px 8px;
+    width: 250px;
+}
+
+.product.basket .product-price {
+    padding: 8px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.product.basket>* {
+    height: 100px;
+}
+
+.product.basket .product-picture img {
+    width: 200px;
+    height: 100px;
+}
+
+.product.basket .product-description,
+.product.basket .product-description p {
+    width: 250px;
+}
+
+.product.basket .product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.product.basket .product-price .price {
+    display: none;
+}
+
+.product.basket .product-price .quantite {
+    width: 300px;
+}
+
+.product.basket .addBasket {
+    display: none;
+}
