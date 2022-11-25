@@ -17,6 +17,12 @@ export default function Header(){
                 <li>
                     <NavLink to="/Signin" className="navlink">Inscription</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/Meteo" className="navlink">Meteo</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/ProductForm" className="navlink">Ajouter un produit</NavLink>
+                </li>
             </ul>
         </div>
     );
