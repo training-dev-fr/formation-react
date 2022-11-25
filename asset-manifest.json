@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.03eb4ba3.css",
-    "main.js": "/react-gh-pages/static/js/main.09b1f2a7.js",
-    "static/js/787.b006a2fe.chunk.js": "/react-gh-pages/static/js/787.b006a2fe.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.03eb4ba3.css.map": "/react-gh-pages/static/css/main.03eb4ba3.css.map",
-    "main.09b1f2a7.js.map": "/react-gh-pages/static/js/main.09b1f2a7.js.map",
-    "787.b006a2fe.chunk.js.map": "/react-gh-pages/static/js/787.b006a2fe.chunk.js.map"
+    "main.css": "/formation-react/static/css/main.03eb4ba3.css",
+    "main.js": "/formation-react/static/js/main.a0627259.js",
+    "static/js/787.b006a2fe.chunk.js": "/formation-react/static/js/787.b006a2fe.chunk.js",
+    "index.html": "/formation-react/index.html",
+    "main.03eb4ba3.css.map": "/formation-react/static/css/main.03eb4ba3.css.map",
+    "main.a0627259.js.map": "/formation-react/static/js/main.a0627259.js.map",
+    "787.b006a2fe.chunk.js.map": "/formation-react/static/js/787.b006a2fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03eb4ba3.css",
-    "static/js/main.09b1f2a7.js"
+    "static/js/main.a0627259.js"
   ]
 }
