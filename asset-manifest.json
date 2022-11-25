@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/formation-react/static/css/main.03eb4ba3.css",
-    "main.js": "/formation-react/static/js/main.a0627259.js",
+    "main.js": "/formation-react/static/js/main.6e2af4c1.js",
     "static/js/787.b006a2fe.chunk.js": "/formation-react/static/js/787.b006a2fe.chunk.js",
     "index.html": "/formation-react/index.html",
     "main.03eb4ba3.css.map": "/formation-react/static/css/main.03eb4ba3.css.map",
-    "main.a0627259.js.map": "/formation-react/static/js/main.a0627259.js.map",
+    "main.6e2af4c1.js.map": "/formation-react/static/js/main.6e2af4c1.js.map",
     "787.b006a2fe.chunk.js.map": "/formation-react/static/js/787.b006a2fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03eb4ba3.css",
-    "static/js/main.a0627259.js"
+    "static/js/main.6e2af4c1.js"
   ]
 }
