@@ -4,7 +4,7 @@ import Inscription from './Components/Inscription'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home';
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import Panier from './Pages/Panier/Panier';
 import Error from './Pages/Error/Error';
 import Meteo from './Pages/Meteo/Meteo';

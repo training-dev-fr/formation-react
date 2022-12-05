@@ -2,6 +2,7 @@ import "./Product.css";
 import Quantite from "./../Quantite/Quantite";
 import { useState } from "react";
 
+
 export default function Product({ product, addBasket, type }) {
     const [value, setValue] = useState(1);
     return (
@@ -16,7 +17,7 @@ export default function Product({ product, addBasket, type }) {
                 <p>{product.description}</p>
             </div>
             <div className="product-price">
-                <span class="price">{product.price}€</span>
+                <span className="price">{product.price}€</span>
                 <Quantite price={product.price} value={value} setValue={setValue} />
             </div>
             <button className="addBasket" onClick={() => {

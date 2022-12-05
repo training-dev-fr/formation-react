@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -27,4 +27,8 @@ button {
     border: 1px solid #409020;
     background-color: #50B040;
     color: white;
+}
+
+.form .error {
+    color: red;
 }

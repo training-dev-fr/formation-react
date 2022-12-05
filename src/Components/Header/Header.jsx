@@ -6,7 +6,7 @@ export default function Header(){
         <div className="nav">
             <ul>
                 <li>
-                    <NavLink to="/Home" className="navlink">Accueil</NavLink>
+                    <NavLink to="Home" className="navlink">Accueil</NavLink>
                 </li>
                 <li>
                     <NavLink to="/Cart" className="navlink">Panier</NavLink>
@@ -21,7 +21,7 @@ export default function Header(){
                     <NavLink to="/Meteo" className="navlink">Meteo</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/ProductForm" className="navlink">Ajouter un produit</NavLink>
+                    <NavLink to="ProductForm" className="navlink">Ajouter un produit</NavLink>
                 </li>
             </ul>
         </div>

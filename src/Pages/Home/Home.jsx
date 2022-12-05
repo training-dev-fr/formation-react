@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import Product from "./../../Components/Product/Product";
-import { getAllProduct } from "../../Service/productApi";
-//import data from "./../../data/data";
 import "./Home.css";
+import { getAllProduct } from "../../Service/productApi";
 
 export default function Home({addBasket}){
     const [productList, setProductList] = useState([]);
@@ -16,13 +15,14 @@ export default function Home({addBasket}){
                 setProductIsValid(true);
             }
         })
-    })
+    },[setProductList])
+    
     return(
         <div>
             {productIsValid &&
             <div className="productList">
                 {
-                    productList.map(element => <Product product={element} addBasket={addBasket} type="card" />)
+                    productList.map(element => <Product key={`product-${element.id}`} product={element} addBasket={addBasket} type="card" />)
                 }
             </div>
             }

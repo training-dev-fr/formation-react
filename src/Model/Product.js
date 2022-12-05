@@ -3,9 +3,8 @@ export class Product {
         this.name = json.name;
         this.price = json.price;
         this.description = json.description;
-        this.id = json._id;
+        this.id = json.id;
         this.picture = "/picture/" + json.picture;
 
     }
-
 }
